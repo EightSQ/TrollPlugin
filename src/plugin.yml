@@ -1,0 +1,13 @@
+name: TrollPlugin
+version: 0.3.1
+main: com.fr0zenst0rm.TrollPlugin.TrollPlugin
+author: fr0zenst0rm
+commands:
+  troll:
+    description: Trolls a player.
+    permission: trollplugin.troll
+    permission-message: HAHA! You aren't a troll!
+  trollplugin:
+    description: Shows infos about the TrollPlugin.
+    permission: trollplugin.info
+    permission-message: You aren't allowed to view the info.
